@@ -1,0 +1,72 @@
+.panel-plant{
+    background-color: #e9faff;
+}
+.pot {
+    position:absolute;
+    width: 45%;
+    height: 20%;
+    bottom: 10%;
+    left: 28%;
+    background: #df9050;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    box-shadow: inset 0 16px 20px rgb(0 0 0 / 23%);
+}
+.stem {
+    position: absolute;
+    width: 2.5%;
+    height:50%;
+    left:49%;
+    bottom: 25%;
+    border-radius: 33%;
+    background: #3fa152;
+}
+.leaf {
+    position:absolute;
+    width: 700%;
+    height: 10%;
+    border-radius: 50%;
+    background: #3fa152;
+}
+.leaf .line {
+    position: absolute;
+    width: 80%;
+    height: 1%;
+    background: rgba(0,0,0,0.13);
+    top: 48%;
+}
+
+.leaf01{
+    top: 70%;
+    left: 100%;
+    transform: rotate(330deg);
+    transform-origin: bottom left;
+}
+
+.leaf02 {
+    top: 55%;
+    right: 50%;
+    transform: rotate(18deg);
+    transform-origin: bottom right;
+}
+
+.leaf03 {
+    top:39%;
+    left: 117%;
+    transform:rotate(339deg);
+    transform-origin: bottom left;
+}
+
+.leaf04 {
+    top: 23%;
+    right: 50%;
+    transform-origin: bottom right;
+    transform: rotate(12deg);
+}
+
+.leaf05 {
+    top: -4%;
+    left: 132%;
+    transform: rotate(320deg);
+    transform-origin: bottom left;
+}
